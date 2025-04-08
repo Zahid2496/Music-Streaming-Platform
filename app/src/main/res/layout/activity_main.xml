@@ -36,7 +36,7 @@
         <fragment
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            class="com.thapamusic.wetunes.NowPlayingFragmentBottom"
+            class="com.example.musicstreamingplatform2.NowPlayingFragmentBottom"
             tools:layout="@layout/fragment_now_playing_bottom"/>
     </FrameLayout>
 </RelativeLayout>

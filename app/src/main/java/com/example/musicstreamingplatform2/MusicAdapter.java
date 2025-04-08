@@ -1,6 +1,5 @@
 package com.example.musicstreamingplatform2;
 
-
 import android.content.ContentUris;
 import android.content.Context;
 import android.content.Intent;

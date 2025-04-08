@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
     private void permission() {
         if (ContextCompat.checkSelfPermission(getApplicationContext(), Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(MainActivity.this, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, REQUEST_CODE);
-        }
+        } 
         else{
 //            Toast.makeText(this, "Permission Granted!", Toast.LENGTH_SHORT).show();
             musicFiles = getAllAudio(this);
@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
 
         private ArrayList<Fragment> fragments;
         private ArrayList<String> titles;
-        //        public ViewPagerAdapter(@NonNull @org.jetbrains.annotations.NotNull FragmentManager fm) {
+//        public ViewPagerAdapter(@NonNull @org.jetbrains.annotations.NotNull FragmentManager fm) {
         public ViewPagerAdapter(@NonNull @org.jetbrains.annotations.NotNull FragmentManager fm) {
             super(fm);
             this.fragments = new ArrayList<>();
@@ -271,3 +271,4 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
     }
 
 
+}

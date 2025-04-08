@@ -1,6 +1,5 @@
 package com.example.musicstreamingplatform2;
 
-
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -273,4 +272,3 @@ public class MusicService extends Service implements MediaPlayer.OnCompletionLis
     }
 
 }
-
