@@ -1,4 +1,7 @@
 package com.example.musicstreamingplatform2;
 
-public class ActionPlaying {
+public interface ActionPlaying {
+    void playPauseBtnClicked();
+    void prevBtnClicked();
+    void nextBtnClicked();
 }
